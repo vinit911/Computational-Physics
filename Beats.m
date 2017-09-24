@@ -1,0 +1,14 @@
+x=0:0.01:100;
+wt=10;
+k1=4;
+k2=3.9;
+y1=sin(wt-k1*x);
+y2=sin(wt-k2*x);
+subplot(2,2,1);
+plot(y1);
+subplot(2,2,2);
+plot(y2);
+subplot(2,2,3);
+plot(y1+y2);
+subplot(2,2,4);
+plot(y1-y2);
