@@ -1,8 +1,3 @@
-%
-% Simple harmonic motion - Euler Cromer method
-% by Kevin Berwick,
-% based on 'Computational Physics' book by N Giordano and H Nakanishi,
-% section 3.1
 % Equation is d2y/dt2 = -y
 function [time,y] = SHM_Euler_Cromer (initial_displacement)
 npoints = 2500; %Discretize time into 250 intervals
