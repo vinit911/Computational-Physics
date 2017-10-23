@@ -1,9 +1,3 @@
-%
-% Euler_cromer calculation of motion of simple pendulum
-% by Kevin Berwick,
-% based on 'Computational Physics' book by N Giordano and H Nakanishi,
-% section 3.1
-%
 clear;
 length= 1; %pendulum length in metres
 g=9.8; % acceleration due to gravity
