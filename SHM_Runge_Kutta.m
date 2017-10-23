@@ -1,9 +1,3 @@
-%
-% Simple harmonic motion - Second order Runge Kutta method
-% by Kevin Berwick,
-% based on 'Computational Physics' book by N Giordano and H Nakanishi,
-% section 3.1
-%Kevin Berwick Page 14
 % Equation is d2y/dt2 = -y
 function [time,y] = SHM_Runge_Kutta(initial_displacement)
 % 2nd order Runge Kutta solution
